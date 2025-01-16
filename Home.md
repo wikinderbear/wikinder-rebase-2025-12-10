@@ -1,1 +1,1 @@
-Welcome to Wikinder!
+# Wikinder
