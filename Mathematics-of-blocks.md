@@ -1,60 +1,66 @@
-**Definition (_Prime number_)**: An integer $n > 1$ is _prime_ iff it is not divisible by any integer $i$ such that $2 \le i \le n - 1$.
+We can think of a positive integer $n$ as a set of $n$ blocks arranged in a line--the same as marbles, dominoes, or any other countable objects.
 
-```python
-def is_prime(n: int) -> bool:
-    """Determines if an integer is prime."""
-
-    # Negative numbers and the numbers 0 and 1 are
-    # not prime.
-    if n <= 1:
-        return False
-
-    # If `n` is divisible by any integer in the
-    # interval $[2, n)$, then it is not prime.
-    for i in range(2, n):
-        if n % i == 0:
-            return False
-
-    # Otherwise, `n` is prime.
-    return True
-
-
-# Displays all prime numbers less than 100.
-for i in range(100):
-    if is_prime(i):
-        print(i)
-```
+Integers from 1 to 10:
 
 ```
-2
-3
-...
-97
+o
+
+oo
+
+ooo
+
+oooo
+
+ooooo
+
+oooooo
+
+ooooooo
+
+oooooooo
+
+ooooooooo
+
+oooooooooo
 ```
 
-**Definition (_Divisibility_)**: Let $n$, $m$, and $k$ be integers with $m \ne 0$. We say that $n$ is _divisible_ by $m$ iff there exists $k$ such that $n = km$.
+## Even and odd numbers
 
-**Theorem**: If $m < n$, then $m \le \frac{n}{2}$.
+An even number can be divided into two equal parts, while an odd number cannot. Halving an odd number leaves a remainder of 1. A set $S$ with an odd number of elements has a middle element.[^1]
 
-**Proof**: From $m < n$, we have:
+```
+o
 
-$$
-\begin{array}{lll}
-km = n & <   & kn \\
-1      & <   & k \\
-2      & \le & k.
-\end{array}
-$$
+o
+o
 
-Then we have:
+oo
+o
 
-$$
-\begin{array}{lll}
-2m & \le & km = n \\
-m  & \le & \frac{n}{2}.
-\end{array}
-$$
+oo
+oo
 
-**Theorem**: If $p$ is a prime divisor of $n$, then $p \le \sqrt{n}$.
+ooo
+oo
 
-**Proof**:
+ooo
+ooo
+
+oooo
+ooo
+
+oooo
+oooo
+
+ooooo
+oooo
+
+ooooo
+ooooo
+```
+
+**Definition (Even and odd numbers)**: Let $n$ and $k$ be integers. We say that $n$ is **even** if there exists $k$ such that $n = 2k$, and $n$ is **odd** if there exists $k$ such that $n = 2k + 1$.
+
+## Notes
+
+[^1]: Only if the elements are arranged in a line, which seems to be said that $S$ can be _linearly ordered_. It seems, however, that _every_ set can be linearly ordered.
