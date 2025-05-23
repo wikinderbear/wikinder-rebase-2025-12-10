@@ -30,11 +30,11 @@ By induction on $n$:
    **Base case ($n = 1$)**:
    <br>
    $`
-   \begin{array}{lcll}
+   \begin{align*}
    a^m a^1
-   & = & a^m a     & \text{(by Def. 1)} \\
-   & = & a^{m + 1} & \text{(by Def. 2)}.
-   \end{array}
+   & = a^m a      & & \text{(by Def. 1)} \\
+   & = a^{m + 1}. & & \text{(by Def. 2)}
+   \end{align*}
    `$
 
    **Inductive step**:
@@ -42,14 +42,14 @@ By induction on $n$:
    Assume $a^m a^n = a^{m + n}$. Then:
 
    $`
-   \begin{array}{lcll}
+   \begin{align*}
    a^m a^{n + 1}
-   & = & a^m (a^n a)     & \text{(by Def. 2)} \\
-   & = & (a^m a^n) a     & \text{(by associativity of multiplication)} \\
-   & = & a^{m + n} a     & \text{(by the induction hypothesis)} \\
-   & = & a^{(m + n) + 1} & \text{(by Def. 2)} \\
-   & = & a^{m + (n + 1)} & \text{(by associativity of addition)}.
-   \end{array}
+   & = a^m (a^n a)      & & \text{(by Def. 2)} \\
+   & = (a^m a^n) a      & & \text{(by associativity)} \\
+   & = a^{m + n} a      & & \text{(by the induction hypothesis)} \\
+   & = a^{(m + n) + 1}  & & \text{(by Def. 2)} \\
+   & = a^{m + (n + 1)}. & & \text{(by associativity)}
+   \end{align*}
    `$
 
    </details>
@@ -62,11 +62,11 @@ By induction on $n$:
    **Base case ($n = 1$)**:
    <br>
    $`
-   \begin{align}
+   \begin{align*}
    (a^m)^1
-   &= a^m \\
-   &= a^{m \cdot 1}.
-   \end{align}
+   & = a^m            & & \text{(by Def. 1)} \\
+   & = a^{m \cdot 1}. & & \text{(by identity)}
+   \end{align*}
    `$
 
    **Inductive step**:
@@ -74,13 +74,13 @@ By induction on $n$:
    Assume $(a^m)^n = a^{mn}$. Then:
 
    $`
-   \begin{align}
+   \begin{align*}
    (a^m)^{n + 1}
-   &= (a^m)^n a^m \\
-   &= a^{mn} a^m \\
-   &= a^{mn + m} \\
-   &= a^{m(n + 1)}.
-   \end{align}
+   & = (a^m)^n a^m   & & \text{(by Def. 2)} \\
+   & = a^{mn} a^m    & & \text{(by the induction hypothesis)} \\
+   & = a^{mn + m}    & & \text{(by Rule 1)} \\
+   & = a^{m(n + 1)}. & & \text{(by distributivity)}
+   \end{align*}
    `$
 
    </details>
@@ -93,11 +93,11 @@ By induction on $n$:
    **Base case ($n = 1$)**:
    <br>
    $`
-   \begin{align}
+   \begin{align*}
    (ab)^1
-   &= ab \\
-   &= a^1 b^1.
-   \end{align}
+   & = ab       & & \text{(by Def. 1)} \\
+   & = a^1 b^1. & & \text{(by Def. 1)}
+   \end{align*}
    `$
 
    **Inductive step**:
@@ -105,13 +105,13 @@ By induction on $n$:
    Assume $(ab)^n = a^n b^n$. Then:
 
    $`
-   \begin{align}
+   \begin{align*}
    (ab)^{n + 1}
-   &= (ab)^n (ab) \\
-   &= a^n b^n (ab) \\
-   &= (a^n a) (b^n b) \\
-   &= a^{n + 1} b^{n + 1}.
-   \end{align}
+   & = (ab)^n (ab)          & & \text{(by Def. 2)} \\
+   & = a^n b^n (ab)         & & \text{(by the induction hypothesis)} \\
+   & = (a^n a) (b^n b)      & & \text{(by associativity and commutativity)} \\
+   & = a^{n + 1} b^{n + 1}. & & \text{(by Def. 2)}
+   \end{align*}
    `$
 
    </details>
@@ -162,7 +162,7 @@ just like $f(f^{-1}(x)) = f^{-1}(f(x)) = x$. Using this:
    $`
    \begin{align}
    \log_b x
-   &= \frac{\log_b x \cdot \log_c b}{\log_c b} \\
+   &= \log_b x \cdot \frac{\log_c b}{\log_c b} \\
    &= \frac{\log_c (b^{\log_b x})}{\log_c b} \\
    &= \frac{\log_c x}{\log_c b}.
    \end{align}
