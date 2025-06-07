@@ -38,6 +38,19 @@
       </td>
     </tr>
     <tr>
+      <th>Gender</th>
+      <td itemprop="gender">Male</td>
+    </tr>
+    <tr>
+      <th>Height</th>
+      <td>
+        <div itemprop="height" itemscope itemtype="https://schema.org/QuantitativeValue">
+          <span itemprop="value">163.5</span>
+          <span itemprop="unitText">cm</span>
+        </div>
+      </td>
+    </tr>
+    <tr>
       <th>Hometown</th>
       <td>Esashi, Iwate, Japan</td>
     </tr>
@@ -47,7 +60,11 @@
     </tr>
     <tr>
       <th>Occupation</th>
-      <td>Wikid</td>
+      <td>
+        <div itemprop="hasOccupation" itemscope itemtype="https://schema.org/Occupation">
+          <span itemprop="name">Wikid</span>
+        </div>
+      </td>
     </tr>
     <tr>
       <th rowspan="6" valign="top">Medical conditions</th>
