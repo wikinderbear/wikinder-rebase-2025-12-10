@@ -1,6 +1,34 @@
 < [[Math formulas]]
 
-## Euler's identities
+## Euler's formula
+
+Assume that $e^{ix}$ is a complex number and can be written as:
+
+$e^{ix} = f + ig.$ (Eq. 1)
+
+Differentiate both sides with respect to $x$:
+
+$(e^{ix})' = (f + ig)'$
+
+$ie^{ix} = f' + ig'.$
+
+Substitute Eq. 1 into the left-hand side:
+
+$i(f + ig) = f' + ig'$
+
+$-g + if = f' + ig'.$
+
+Equate the real and imaginary parts of both sides:
+
+$-g = f',$
+<br>
+$f = g'.$
+
+Substitute one equation into the other:
+
+$f'' = -f,$
+<br>
+$g'' = -g.$
 
 ## Algebraic identities
 
