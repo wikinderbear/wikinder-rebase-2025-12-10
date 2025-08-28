@@ -2,7 +2,12 @@
     * [[Proofs|Math formulas proofs]]
 * [[Math in anime]]
 
-## Bear math
+## Recreational math
+
+* [[Palindromic number]]
+* [[24]]
+
+## Math of counting bears
 
 * [[Counting bears]]
 * [[Moving bears]]
