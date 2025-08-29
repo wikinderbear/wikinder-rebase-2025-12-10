@@ -4,14 +4,12 @@
 
 $(a + b)^2 = a^2 + 2ab + b^2$
 
-<img alt="A rose made of Lego" src="https://github.com/user-attachments/assets/43852a1a-73e1-4a3d-9143-fcc15274040f" height="200">
-
+<img src="https://github.com/user-attachments/assets/785abd52-dea5-46f6-88a0-41dec4d6e7bc" alt="A rose made of Lego" width="115" height="200">
 <br>
-
-<img alt="Sheet music for &quot;Row, Row, Row Your Boat&quot;" src="https://github.com/user-attachments/assets/40e65b09-9ad1-4a03-9478-7c81dea11514" height="100">
+<img src="https://github.com/user-attachments/assets/40e65b09-9ad1-4a03-9478-7c81dea11514" alt="Sheet music for &quot;Row, Row, Row Your Boat&quot;" width="360" height="103">
 
 <details>
-<summary>[show]</summary>
+<summary>Play</summary>
 
 ```lilypond
 \relative c' {
@@ -25,18 +23,6 @@ $(a + b)^2 = a^2 + 2ab + b^2$
 https://github.com/user-attachments/assets/2cbf4e6e-dc5b-4ff1-b04a-8373a4738dbf
 
 </details>
-
-* [[Math]]
-* Languages
-    * [[Chinese characters with the most strokes]]
-    * Japanese
-        * [[Kaibun]] (palindromes)
-        * [[Shiritori]] (word chain game)
-* Games
-    * [[Othello]]
-    * [[Chess]]
-    * [[Shogi]]
-    * [[Go]]
 
 ## Donors
 
