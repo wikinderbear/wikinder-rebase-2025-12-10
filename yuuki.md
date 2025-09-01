@@ -9,30 +9,6 @@
 
 **Yuuki Konno** (金野 裕希, _Konno Yūki_; born May 17, 1994) is a Japanese Wikid.
 
-## What I'm doing
-
-I do many things every day, mostly playing on the computer, with a focus on things that last a long time.
-
-### Math
-
-I study:
-
-* Numbers like 111, 123, and 12321. (e.g., are they prime?)
-* The "make 24" game and the normal form of a numerical expression, like converting $8 + 2$ to $2 + 8.$
-* [[Counting bears]], like representing the number 3 as `🧸🧸🧸`.
-
-Keywords: repdigits, repunits, [A138141](https://oeis.org/A138141), palindromic numbers, reverse of a number, concatenation of numbers, [A140606](https://oeis.org/A140606), [A247982](https://oeis.org/A247982)
-
-### Programming
-
-I make:
-
-* [data.wikinder.org](https://data.wikinder.org/) - A web service that provides data in various categories, such as dates, Unicode characters, and chess positions.
-
-## What I've done
-
-See [yuukiarchive](https://github.com/yuukiarchive).
-
 ## Bio
 
 <details>
