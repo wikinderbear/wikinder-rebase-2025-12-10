@@ -1,4 +1,4 @@
-[[JP|Wikinder Japan]]
+< [[Home]]
 
 <table>
   <tr>
@@ -11,11 +11,12 @@
   </tr>
 </table>
 
+* [[Japan|Wikinder Japan]]
+
 ## Wiki hosts
 
-* [GitHub Wiki](https://github.com/wikinder/wikinder/wiki)
-    * [SEE](https://github-wiki-see.page/m/wikinder/wikinder/wiki_index)
-* [GitLab Wiki](https://gitlab.com/wikinder/wikinder/-/wikis/home) (read-only)
+* [GitHub](https://github.com/wikinder/wikinder/wiki)
+* [GitLab](https://gitlab.com/wikinder/wikinder/-/wikis/home) (read-only)
 
 ## Social networks
 
@@ -35,6 +36,6 @@
 <summary>[show]</summary>
 
 * [Wiki](https://archive.today/wikinder.org)
-* [X](https://archive.today/https://x.com/wikinder/status/*)
+* [X](https://twilog.togetter.com/wikinder)
 
 </details>
