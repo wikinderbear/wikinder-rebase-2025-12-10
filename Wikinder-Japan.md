@@ -1,4 +1,4 @@
-< [[Wikinder]]
+< [[Home]] | [[Wikinder]]
 
 ## Social networks
 
@@ -11,6 +11,6 @@
 <details>
 <summary>[show]</summary>
 
-* [X](https://archive.today/https://x.com/wikinderjp/status/*)
+* [X](https://twilog.togetter.com/wikinderjp)
 
 </details>
