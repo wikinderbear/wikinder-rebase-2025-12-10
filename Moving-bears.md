@@ -1,4 +1,4 @@
-< [[Math]]
+[[#math|Math]]
 
 ```js
 function drawLine(x1, x2) {
@@ -10,4 +10,4 @@ function drawLine(x1, x2) {
 
 ## See also
 
-* [[Counting bears]]
+- [[Counting bears]]
