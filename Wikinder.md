@@ -32,9 +32,6 @@
 
 ## Archives
 
-<details>
-<summary>[show]</summary>
-
 ### Wiki
 
 - [Archives](https://github.com/wikinder/wikinder.github.io#archives)
@@ -43,5 +40,3 @@
 
 - [Twilog](https://twilog.togetter.com/wikinder)
 - [Posfie](https://posfie.com/@wikinder)
-
-</details>
