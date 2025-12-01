@@ -8,12 +8,7 @@
 
 ## Archives
 
-<details>
-<summary>[show]</summary>
-
 ### X
 
 - [Twilog](https://twilog.togetter.com/wikinderjp)
 - [Posfie](https://posfie.com/@wikinderjp)
-
-</details>
