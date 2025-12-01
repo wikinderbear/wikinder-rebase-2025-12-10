@@ -41,7 +41,7 @@
 
 ### X
 
-- [Togetter](https://twilog.togetter.com/wikinder)
+- [Twilog](https://twilog.togetter.com/wikinder)
 - [Posfie](https://posfie.com/@wikinder)
 
 </details>
