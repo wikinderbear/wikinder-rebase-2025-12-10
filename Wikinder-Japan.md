@@ -8,9 +8,7 @@
 
 ## Archives
 
-<details>
-<summary>[show]</summary>
+### X
 
-- [X](https://twilog.togetter.com/wikinderjp)
-
-</details>
+- [Twilog](https://twilog.togetter.com/wikinderjp)
+- [Posfie](https://posfie.com/@wikinderjp)
