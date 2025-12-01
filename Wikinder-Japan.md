@@ -11,6 +11,9 @@
 <details>
 <summary>[show]</summary>
 
-- [X](https://twilog.togetter.com/wikinderjp)
+### X
+
+- [Twilog](https://twilog.togetter.com/wikinderjp)
+- [Posfie](https://posfie.com/@wikinderjp)
 
 </details>
